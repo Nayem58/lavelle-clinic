@@ -32,38 +32,20 @@
     Loading<span>...</span>
   </div>
 
-  <!-- including header file -->
-  <?php include_once 'layouts/header.html' ?>
+  <!-- header -->
+
+  <?php include_once 'layouts/header.html';?>
 
   <main>
-    <!-- including header file -->
-    <?php include_once 'pages/homepage.html' ?>
+    <!-- homepage -->
+<?php
+include_once 'layouts/heroBanner.php';
+include_once 'pages/homepage.php';
+?>
   </main>
 
-  <!-- including footer file -->
-  <?php include_once 'layouts/footer.html' ?>
-
-  <!-- Jquery -->
-  <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
-  </script>
-
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
-  <!-- Fancybox -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <!-- Lazysizes -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <!-- AOS -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-
-  <!-- Custom -->
-  <script src="inc/main.js"></script>
+  <!-- footer -->
+  <?php include_once 'layouts/footer.html';?>
 </body>
 
 </html>

@@ -1,16 +1,22 @@
 <!-- hero-banner-sec -->
-<div class="common-sec hero-banner-sec py-0">
+<!-- <div class="common-sec hero-banner-sec py-0">
   <div class="container">
     <div class="img-box">
-      <img
-        width="1920"
-        height="801"
-        src="images/lavelle-clinic-logo-white.svg"
-        alt="Lavelle Clinic White Logo"
-      />
+      <img width="1920" height="801" src="images/lavelle-clinic-logo-white.svg" alt="Lavelle Clinic White Logo" />
     </div>
   </div>
-</div>
+</div> -->
+
+
+<?php
+heroBanner(
+    <<<EOD
+    <div class="img-box">
+      <img width="1920" height="801" src="images/lavelle-clinic-logo-white.svg" alt="Lavelle Clinic White Logo" />
+    </div>
+EOD
+);
+?>
 
 <!-- featured-sec -->
 <div class="common-sec featured-sec">
@@ -29,11 +35,7 @@
       </div>
       <div class="common-card" data-aos="fade-up" data-aos-duration="500">
         <div class="img-box">
-          <a href="/treatments.html"
-            ><img
-              src="images/icons/lavelle-clinic-treatment-icon.svg"
-              alt="Treatment Icon"
-          /></a>
+          <a href="/treatments.html"><img src="images/icons/lavelle-clinic-treatment-icon.svg" alt="Treatment Icon" /></a>
         </div>
         <div class="content">
           <div class="common-heading">Our Treatments</div>
@@ -42,11 +44,7 @@
       </div>
       <div class="common-card" data-aos="fade-up" data-aos-duration="1000">
         <div class="img-box">
-          <a href="/offers.html"
-            ><img
-              src="images/icons/lavelle-clinic-offers-icon.svg"
-              alt="Offers Icon"
-          /></a>
+          <a href="/offers.html"><img src="images/icons/lavelle-clinic-offers-icon.svg" alt="Offers Icon" /></a>
         </div>
         <div class="content">
           <div class="common-heading">Offers</div>
@@ -55,9 +53,7 @@
       </div>
       <div class="common-card" data-aos="fade-up" data-aos-duration="1500">
         <div class="img-box">
-          <a href="/clinic.html"
-            ><img src="images/icons/lavelle-clinic-icon.svg" alt="Clinic Icon"
-          /></a>
+          <a href="/clinic.html"><img src="images/icons/lavelle-clinic-icon.svg" alt="Clinic Icon" /></a>
         </div>
         <div class="content">
           <div class="common-heading">Our Clinic</div>
@@ -77,20 +73,9 @@
     <div class="grid">
       <div class="blog-block">
         <div class="img-box" data-aos="fade-right" data-aos-duration="500">
-          <img
-            class="lazyload"
-            src="#"
-            data-src="images/blogs/laser-hair-removal.jpg"
-            alt="Laser Hair Removal"
-          />
+          <img class="lazyload" src="#" data-src="images/blogs/laser-hair-removal.jpg" alt="Laser Hair Removal" />
         </div>
-        <div
-          class="blog-card"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-        >
+        <div class="blog-card" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-sine">
           <h3 class="common-heading">Laser Hair Removal</h3>
           <p>
             Your skin deserves a routine as unique as you are. That’s why we’re
@@ -103,20 +88,9 @@
       </div>
       <div class="blog-block">
         <div class="img-box" data-aos="fade-left" data-aos-duration="500">
-          <img
-            class="lazyload"
-            src="#"
-            data-src="images/blogs/hydrafacial.jpg"
-            alt="Hydrafacial"
-          />
+          <img class="lazyload" src="#" data-src="images/blogs/hydrafacial.jpg" alt="Hydrafacial" />
         </div>
-        <div
-          class="blog-card"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-        >
+        <div class="blog-card" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-sine">
           <h3 class="common-heading">Hydrafacial</h3>
           <p>
             Your skin deserves a routine as unique as you are. That’s why we’re
@@ -143,12 +117,7 @@
     <div class="container">
       <div class="row justify-content-lg-center">
         <div class="col-md-5 col-lg-8">
-          <ul
-            class="check-square mb-0"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-          >
+          <ul class="check-square mb-0" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <li>Laser Hair Removal</li>
             <li>Deep Cleaning Facial</li>
             <li>Microdermabrasion</li>
@@ -160,19 +129,8 @@
         </div>
       </div>
     </div>
-    <div
-      class="img-box"
-      data-aos="fade-right"
-      data-aos-duration="1000"
-      data-aos-offset="300"
-      data-aos-easing="ease-in-sine"
-    >
-      <img
-        class="lazyload"
-        src="#"
-        data-src="images/why-choose-collage.jpg"
-        alt="Why Choose Collage"
-      />
+    <div class="img-box" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-sine">
+      <img class="lazyload" src="#" data-src="images/why-choose-collage.jpg" alt="Why Choose Collage" />
     </div>
   </div>
 </div>
@@ -206,11 +164,7 @@
           Most amazing clinic I’ve ever seen! Sundes is very Professional and
           makes you feel comfortable throughout your session...
         </p>
-        <a
-          href="https://crm.pabau.com/reviews/lavelle-clinic/240637"
-          class="common-btn"
-          >Full Review</a
-        >
+        <a href="https://crm.pabau.com/reviews/lavelle-clinic/240637" class="common-btn">Full Review</a>
       </div>
       <div class="review-card" data-aos="fade-up" data-aos-duration="3000">
         <div class="icon-star-wrapper">
@@ -233,11 +187,7 @@
           This is my third visit to the clinic to have laser treatment and it
           has been the best decisions I could have made. It has worked...
         </p>
-        <a
-          href="https://crm.pabau.com/reviews/lavelle-clinic/239410"
-          class="common-btn"
-          >Full Review</a
-        >
+        <a href="https://crm.pabau.com/reviews/lavelle-clinic/239410" class="common-btn">Full Review</a>
       </div>
       <div class="review-card" data-aos="fade-up" data-aos-duration="3000">
         <div class="icon-star-wrapper">
@@ -260,17 +210,11 @@
           COULD NOT RECOMMEND MORE 🤩 I was excited but nervous before the
           treatment but when I arrived I was reassured and...
         </p>
-        <a
-          href="https://crm.pabau.com/reviews/lavelle-clinic/237494"
-          class="common-btn"
-          >Full Review</a
-        >
+        <a href="https://crm.pabau.com/reviews/lavelle-clinic/237494" class="common-btn">Full Review</a>
       </div>
     </div>
     <div class="text-center">
-      <a href="https://crm.pabau.com/reviews/lavelle-clinic" class="common-btn"
-        >More Reviews</a
-      >
+      <a href="https://crm.pabau.com/reviews/lavelle-clinic" class="common-btn">More Reviews</a>
     </div>
   </div>
 </div>
@@ -284,81 +228,40 @@
     <div class="grid">
       <div class="img-box insta-block">
         <a href="images/gallery/g-1.jpg" data-fancybox="homepage-gallery">
-          <img
-            class="lazyload"
-            src="#"
-            data-src="images/gallery/g-1.jpg"
-            alt=""
-          />
+          <img class="lazyload" src="#" data-src="images/gallery/g-1.jpg" alt="" />
         </a>
-        <a
-          href="https://www.instagram.com/lavelleclinic/?hl=en"
-          class="insta-follow-btn"
-        >
-          <img
-            src="images/icons/instagram-white.svg"
-            alt="Instagram White Icon"
-          />
+        <a href="https://www.instagram.com/lavelleclinic/?hl=en" class="insta-follow-btn">
+          <img src="images/icons/instagram-white.svg" alt="Instagram White Icon" />
           <span>Follow Us</span>
         </a>
       </div>
       <div class="img-box vdo-box">
-        <img
-          class="lazyload"
-          src="#"
-          data-src="images/gallery/g-thumb-1.jpg"
-          alt=""
-        />
+        <img class="lazyload" src="#" data-src="images/gallery/g-thumb-1.jpg" alt="" />
         <a class="play-btn" data-fancybox href="videos/vdo-1.mp4"></a>
       </div>
       <div class="img-box vdo-box">
-        <img
-          class="lazyload"
-          src="#"
-          data-src="images/gallery/g-thumb-2.jpg"
-          alt=""
-        />
+        <img class="lazyload" src="#" data-src="images/gallery/g-thumb-2.jpg" alt="" />
         <a class="play-btn" data-fancybox href="videos/vdo-1.mp4"></a>
       </div>
       <div class="img-box grid">
         <div class="img-box zoom">
           <a href="images/gallery/g-sm-1.jpg" data-fancybox="homepage-gallery">
-            <img
-              class="lazyload"
-              src="#"
-              data-src="images/gallery/g-sm-1.jpg"
-              alt=""
-            />
+            <img class="lazyload" src="#" data-src="images/gallery/g-sm-1.jpg" alt="" />
           </a>
         </div>
         <div class="img-box zoom">
           <a href="images/gallery/g-sm-2.jpg" data-fancybox="homepage-gallery">
-            <img
-              class="lazyload"
-              src="#"
-              data-src="images/gallery/g-sm-2.jpg"
-              alt=""
-            />
+            <img class="lazyload" src="#" data-src="images/gallery/g-sm-2.jpg" alt="" />
           </a>
         </div>
         <div class="img-box zoom">
           <a href="images/gallery/g-sm-3.jpg" data-fancybox="homepage-gallery">
-            <img
-              class="lazyload"
-              src="#"
-              data-src="images/gallery/g-sm-3.jpg"
-              alt=""
-            />
+            <img class="lazyload" src="#" data-src="images/gallery/g-sm-3.jpg" alt="" />
           </a>
         </div>
         <div class="img-box zoom">
           <a href="images/gallery/g-sm-4.jpg" data-fancybox="homepage-gallery">
-            <img
-              class="lazyload"
-              src="#"
-              data-src="images/gallery/g-sm-4.jpg"
-              alt=""
-            />
+            <img class="lazyload" src="#" data-src="images/gallery/g-sm-4.jpg" alt="" />
           </a>
         </div>
       </div>

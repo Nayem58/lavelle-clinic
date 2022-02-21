@@ -3,7 +3,7 @@
 
 <head>
 <?php
-$title = "Laser & Skin Clinic | Lavelle Clinic";
+$title = "Laser Hair Treatments | Lavelle Clinic";
 require_once 'inc/head.php';
 ?>
 </head>
@@ -18,8 +18,11 @@ require_once 'inc/head.php';
   <?php include_once 'layouts/header.html';?>
 
   <main>
-  <!-- homepage -->
-  <?php include_once 'pages/homepage.php';?>
+    <!-- homepage -->
+<?php
+include_once 'layouts/heroBanner.php';
+
+?>
   </main>
 
   <!-- footer -->

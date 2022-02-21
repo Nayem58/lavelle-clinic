@@ -102,6 +102,12 @@ h6.common-heading {
   transition: all 0.4s;
 }
 
+.flex-hv-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .common-btn:hover {
   background-color: transparent;
   color: var(--site-primary-color);

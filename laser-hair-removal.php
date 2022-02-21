@@ -17,8 +17,14 @@ require_once 'inc/head.php';
   <!-- header -->
   <?php include_once 'layouts/header.html';?>
 
-  <main>
   <!-- main content -->
+  <main>
+  <!-- hero-banner-sec -->
+  <div class="common-sec hero-banner-sec py-0 flex-hv-center">
+    <div class="img-box hero-banner-sec__cover-img">
+      <img src="images/backgrounds/laser-hair-removal-machine-bg.jpg" alt="Laser Hair Removal Machine">
+    </div>
+  </div>
 
   </main>
 

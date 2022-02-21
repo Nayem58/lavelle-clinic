@@ -498,14 +498,27 @@ main {
 /* === hero-banner-sec === */
 .hero-banner-sec {
   height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: var(--site-primary-color);
+}
+
+.hero-banner-sec__cover-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-banner-sec__cover-img > img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
 }
 
 .hero-banner-sec .container {
   overflow: hidden;
+  position: relative;
+  z-index: 11;
 }
 
 .body-loaded .hero-banner-sec .container .img-box {

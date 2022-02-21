@@ -1,5 +1,5 @@
 <!-- hero-banner-sec -->
-<div class="common-sec hero-banner-sec py-0">
+<div class="common-sec hero-banner-sec py-0 flex-hv-center">
   <div class="container flex-hv-center">
     <div class="img-box">
       <img width="1920" height="801" src="images/lavelle-clinic-logo-white.svg" alt="Lavelle Clinic White Logo" />

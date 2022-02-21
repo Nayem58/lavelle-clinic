@@ -26,6 +26,12 @@ require_once 'inc/head.php';
     </div>
   </div>
 
+  <div class="common-sec tile-bg">
+    <div class="container">
+
+    </div>
+  </div>
+
 <?php
 include_once 'layouts/ReviewSec.php';
 include_once 'layouts/Gallery.php';

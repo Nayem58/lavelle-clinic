@@ -875,10 +875,12 @@ main {
 /* === common-sec--why-choose === */
 .common-sec--why-choose .why-choose-list {
   position: relative;
+  max-width: 1920px;
   min-height: 375px;
   display: flex;
   align-items: center;
   overflow: hidden;
+  margin: auto;
 }
 
 .common-sec--why-choose .why-choose-list .img-box {

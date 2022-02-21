@@ -18,7 +18,7 @@ require_once 'inc/head.php';
   <?php include_once 'layouts/header.html';?>
 
   <main>
-  <!-- homepage -->
+  <!-- main content -->
   <?php include_once 'pages/homepage.php';?>
   </main>
 

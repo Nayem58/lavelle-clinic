@@ -18,11 +18,8 @@ require_once 'inc/head.php';
   <?php include_once 'layouts/header.html';?>
 
   <main>
-    <!-- homepage -->
-<?php
-include_once 'layouts/heroBanner.php';
+  <!-- main content -->
 
-?>
   </main>
 
   <!-- footer -->

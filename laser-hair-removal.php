@@ -28,7 +28,10 @@ require_once 'inc/head.php';
 
   <div class="common-sec tile-bg">
     <div class="container">
-
+      <div class="row align-items-center">
+        <div class="col-md-6"></div>
+        <div class="col-md-6"></div>
+      </div>
     </div>
   </div>
 

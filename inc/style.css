@@ -978,6 +978,7 @@ main {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .common-sec--review .grid .review-card:nth-child(1) {
@@ -985,7 +986,7 @@ main {
 }
 .common-sec--review .grid .review-card:nth-child(2) {
   background-image: url(../images/backgrounds/review-card-2-bg.jpg);
-  transform: translateY(-30px);
+  bottom: 30px;
 }
 .common-sec--review .grid .review-card:nth-child(3) {
   background-image: url(../images/backgrounds/review-card-3-bg.jpg);
@@ -1040,7 +1041,7 @@ main {
   }
 
   .common-sec--review .grid .review-card:nth-child(2) {
-    transform: translateY(0);
+    bottom: 0;
   }
 }
 

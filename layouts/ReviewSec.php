@@ -6,7 +6,7 @@
       <span class="site-primary-color-text">Our Happy Clients</span>
     </h3>
     <div class="grid mb-50px">
-      <div class="review-card" data-aos="fade-up" data-aos-duration="3000">
+      <div class="review-card" data-aos="fade-right" data-aos-duration="2000">
         <div class="icon-star-wrapper">
           <div class="user-icon">
             <img src="images/icons/user-icon.svg" alt="User Icon" />
@@ -33,7 +33,7 @@
           >Full Review</a
         >
       </div>
-      <div class="review-card" data-aos="fade-up" data-aos-duration="3000">
+      <div class="review-card" data-aos="fade-up" data-aos-duration="2000">
         <div class="icon-star-wrapper">
           <div class="user-icon">
             <img src="images/icons/user-icon.svg" alt="User Icon" />
@@ -60,7 +60,7 @@
           >Full Review</a
         >
       </div>
-      <div class="review-card" data-aos="fade-up" data-aos-duration="3000">
+      <div class="review-card" data-aos="fade-left" data-aos-duration="2000">
         <div class="icon-star-wrapper">
           <div class="user-icon">
             <img src="images/icons/user-icon.svg" alt="User Icon" />

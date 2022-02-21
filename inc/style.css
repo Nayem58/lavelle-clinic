@@ -26,13 +26,18 @@ ul.check-square li {
   position: relative;
   padding-left: 30px;
   margin-bottom: 10px;
+  font-size: 18px;
+}
+
+ul.check-square li:last-child {
+  margin-bottom: 0;
 }
 
 ul.check-square li:before {
   position: absolute;
   content: "";
   width: 20px;
-  height: 24px;
+  height: 27px;
   background-image: url(../images/icons/check-icon.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -897,23 +902,6 @@ main {
   height: 100%;
   object-fit: cover;
   object-position: center;
-}
-
-.common-sec--why-choose .why-choose-list ul li {
-  font-size: 18px;
-}
-
-.common-sec--why-choose .why-choose-list ul li:last-child {
-  margin-bottom: 0;
-}
-
-.common-sec--why-choose .why-choose-list ul,
-.common-sec--why-choose .why-choose-list ul li:last-child {
-  margin-bottom: 0;
-}
-
-.common-sec--why-choose .why-choose-list ul li:before {
-  height: 27px;
 }
 
 @media (max-width: 1199px) {

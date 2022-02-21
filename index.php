@@ -15,15 +15,20 @@ require_once 'inc/head.php';
   </div>
 
   <!-- header -->
-  <?php include_once 'layouts/header.html';?>
+  <?php include_once 'layouts/Header.php';?>
 
   <!-- main content -->
   <main>
-  <?php include_once 'pages/homepage.php';?>
+<?php
+include_once 'pages/homepage.php';
+include_once 'layouts/WhyChoose.php';
+include_once 'layouts/ReviewSec.php';
+include_once 'layouts/Gallery.php';
+?>
   </main>
 
   <!-- footer -->
-  <?php include_once 'layouts/footer.html';?>
+  <?php include_once 'layouts/Footer.php';?>
 </body>
 
 </html>

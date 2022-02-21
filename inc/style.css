@@ -55,6 +55,8 @@ ul.check-square li:before {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
 }
 
 .tile-bg {
@@ -1210,4 +1212,109 @@ footer {
 .lower-footer a {
   color: #787878;
   text-decoration: none;
+}
+
+/* === laser-hair-removal page === */
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+}
+
+.offer__card {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  padding: 20px;
+  position: relative;
+}
+
+.offer__card:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 10px 0px rgb(0 0 0 / 15%);
+  z-index: -1;
+}
+
+.offer__card .img-box {
+  height: 300px;
+}
+
+.offer__card .img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.offer__card__copy {
+  padding: 15px;
+  display: grid;
+  grid-template-colums: 1fr;
+  grid-gap: 15px;
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+  line-height: 1;
+}
+
+#thirtyPercentOff .offer__card__copy .percent {
+  color: var(--site-primary-color);
+  font-size: 70px;
+  text-align: center;
+}
+
+#thirtyPercentOff .offer__card__copy .percent span {
+  font-size: 120px;
+}
+
+#thirtyPercentOff .offer__card__copy .condition {
+  font-size: 50px;
+  font-style: italic;
+}
+
+@media (max-width: 1199px) {
+  #thirtyPercentOff .offer__card__copy .percent {
+    font-size: 50px;
+  }
+
+  #thirtyPercentOff .offer__card__copy .percent span {
+    font-size: 100px;
+  }
+
+  #thirtyPercentOff .offer__card__copy .condition {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  #thirtyPercentOff .offer__card__copy .percent {
+    font-size: 40px;
+  }
+
+  #thirtyPercentOff .offer__card__copy .percent span {
+    font-size: 80px;
+  }
+
+  #thirtyPercentOff .offer__card__copy .condition {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  #thirtyPercentOff .offer__card__copy .percent {
+    font-size: 30px;
+  }
+
+  #thirtyPercentOff .offer__card__copy .percent span {
+    font-size: 60px;
+  }
+
+  #thirtyPercentOff .offer__card__copy .condition {
+    font-size: 20px;
+  }
 }

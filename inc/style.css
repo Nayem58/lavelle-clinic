@@ -11,7 +11,7 @@ body {
   color: var(--site-black-color);
 }
 
-img {
+img, video {
   width: auto;
   height: auto;
   max-width: 100%;
@@ -601,6 +601,27 @@ main {
     height: 200px;
   }
 }
+
+/* == laser-hair-removal page == */
+.common-sec--laser-hair-removal-banner {
+  height: auto;
+}
+
+.img-box--soprano-machine img {
+  height: 90%;
+  animation: swivel 1.5s linear forwards;
+}
+
+@keyframes swivel {
+  0% {
+    transform: rotateY(0);
+  }
+
+  100% {
+    transform: rotateY(90);
+  }
+}
+/* == laser-hair-removal page == */
 
 /* === common-sec--featured === */
 .common-sec--featured .grid {

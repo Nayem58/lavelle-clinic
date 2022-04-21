@@ -92,24 +92,68 @@
           Sundes
           <span class="site-primary-color-text">Videos</span>
         </h2>
-        <div class="row justify-content-center">
-          <div class="col-6 col-md-4 mb-4 mb-md-0">
-            <div class="img-box vdo-box">
-              <img class="lazyload" src="#" data-src="images/gallery/vdo-thumb-2.jpg" alt="" />
-              <a class="play-btn" data-fancybox="laser-hair-removal-videos" href="videos/vdo-2.mp4"></a>
-            </div>
+        <div class="laser-hair-removal-vdo-gallery">
+          <div class="vdo-box">
+            <video width="320" height="240" controls>
+              <source src="videos/vdo-1.mp4" type="video/mp4">
+              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
+            </video>
           </div>
-          <div class="col-6 col-md-4 mb-4 mb-md-0">
-            <div class="img-box vdo-box">
-              <img class="lazyload" src="#" data-src="images/gallery/vdo-thumb-3.jpg" alt="" />
-              <a class="play-btn" data-fancybox="laser-hair-removal-videos" href="videos/vdo-3.mp4"></a>
-            </div>
+          <div class="vdo-box">
+            <video width="320" height="240" controls>
+              <source src="videos/vdo-2.mp4" type="video/mp4">
+              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
+            </video>
           </div>
-          <div class="col-6 col-md-4">
-            <div class="img-box vdo-box">
-              <img class="lazyload" src="#" data-src="images/gallery/vdo-thumb-4.jpg" alt="" />
-              <a class="play-btn" data-fancybox="laser-hair-removal-videos" href="videos/vdo-4.mp4"></a>
-            </div>
+          <div class="vdo-box">
+            <video width="320" height="240" controls>
+              <source src="videos/vdo-6.mp4" type="video/mp4">
+              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
+            </video>
+          </div>
+          <div class="vdo-box">
+            <video width="320" height="240" controls>
+              <source src="videos/vdo-9.mp4" type="video/mp4">
+              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
+            </video>
+          </div>
+          <div class="vdo-box">
+            <video width="320" height="240" controls>
+              <source src="videos/vdo-3.mp4" type="video/mp4">
+              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
+            </video>
+          </div>
+          <div class="vdo-box">
+            <video width="320" height="240" controls>
+              <source src="videos/vdo-4.mp4" type="video/mp4">
+              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
+            </video>
+          </div>
+          <div class="vdo-box">
+            <video width="320" height="240" controls>
+              <source src="videos/vdo-5.mp4" type="video/mp4">
+              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
+            </video>
+          </div>
+
+          <div class="vdo-box">
+            <video width="320" height="240" controls>
+              <source src="videos/vdo-7.mp4" type="video/mp4">
+              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
+            </video>
+          </div>
+          <div class="vdo-box">
+            <video width="320" height="240" controls>
+              <source src="videos/vdo-8.mp4" type="video/mp4">
+              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
+            </video>
+          </div>
+
+          <div class="vdo-box">
+            <video width="320" height="240" controls>
+              <source src="videos/vdo-10.mp4" type="video/mp4">
+              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
+            </video>
           </div>
         </div>
       </div>

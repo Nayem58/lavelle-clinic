@@ -71,20 +71,9 @@
       </div>
     </div>
 
-    <div class="common-sec py-0">
-      <div class="laser-hair-removal-offers-sliders owl-carousel owl-theme">
-        <div class="item">
-          <div class="img-box">
-            <img src="images/laser-hair-removal-offer-01.jpg" alt="Laser Hair Removal Offer Banner">
-          </div>
-        </div>
-        <div class="item">
-          <div class="img-box">
-            <img src="images/laser-hair-removal-offer-02.jpg" alt="Laser Hair Removal Offer Banner">
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php
+    include_once 'layouts/LaserHairRemovalOffers.php';
+    ?>
 
     <div class="common-sec tile-bg">
       <div class="container">
@@ -166,6 +155,7 @@
 
   <!-- footer -->
   <?php include_once 'layouts/Footer.php'; ?>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 

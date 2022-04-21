@@ -6,6 +6,13 @@
   $title = "Laser Hair Treatments | Lavelle Clinic";
   require_once 'inc/head.php';
   ?>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -64,17 +71,16 @@
       </div>
     </div>
 
-    <div class="common-sec">
-      <div class="container">
-        <div class="offer-grid">
-          <div class="offer__card text-bg" id="thirtyPercentOff">
-            <div class="img-box">
-              <img class="lazyload" src="#" data-src="images/gallery/g-sm-2.jpg" alt="" />
-            </div>
-            <div class="offer__card__copy tile-bg">
-              <div class="percent"><span>30</span>% <span>OFF</span></div>
-              <div class="condition">3 Areas or More</div>
-            </div>
+    <div class="common-sec py-0">
+      <div class="laser-hair-removal-offers-sliders owl-carousel owl-theme">
+        <div class="item">
+          <div class="img-box">
+            <img src="images/laser-hair-removal-offer-01.jpg" alt="Laser Hair Removal Offer Banner">
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/laser-hair-removal-offer-02.jpg" alt="Laser Hair Removal Offer Banner">
           </div>
         </div>
       </div>
@@ -116,6 +122,7 @@
 
   <!-- footer -->
   <?php include_once 'layouts/Footer.php'; ?>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>

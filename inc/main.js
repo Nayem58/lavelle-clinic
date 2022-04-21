@@ -24,3 +24,20 @@ const sidebarToggle = (element) => {
 sidebarToggle(hamburger);
 sidebarToggle(asideMask);
 sidebarToggle(closeIcon);
+
+//
+$(document).ready(function () {
+  $(".laser-hair-removal-offers-sliders").owlCarousel({
+    loop: true,
+    margin: 0,
+    nav: true,
+    dots: false,
+    smartSpeed: 2500,
+    animateOut: "fadeOut",
+    responsive: {
+      0: {
+        items: 1,
+      },
+    },
+  });
+});

@@ -1275,7 +1275,7 @@ footer {
 .offer__card__copy {
   padding: 15px;
   display: grid;
-  grid-template-colums: 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 15px;
   justify-items: center;
   align-content: center;
@@ -1338,4 +1338,26 @@ footer {
   #thirtyPercentOff .offer__card__copy .condition {
     font-size: 20px;
   }
+}
+
+
+/* === laser-hair-removal-offers-sliders === */
+.laser-hair-removal-offers-sliders .owl-nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 150px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #fff;
+  text-shadow: 0 5px 0 #00000040;
+}
+
+.laser-hair-removal-offers-sliders .owl-nav button.owl-next,
+.laser-hair-removal-offers-sliders .owl-nav button.owl-prev {
+  text-shadow: 0 0 10px rgb(0 0 0 / 25%);
+  box-shadow: 0 0 5px 0 #00000040;
 }

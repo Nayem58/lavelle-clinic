@@ -48,11 +48,9 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 mb-3 mb-md-0 order-md-last">
-            <div class="vdo-box">
-              <video width="320" height="240" controls>
-                <source src="videos/alma-plus-subs.mp4" type="video/mp4">
-                <source src="videos/alma-plus-subs-og.png" type="video/ogg">
-              </video>
+            <div class="img-box vdo-box">
+              <img class="lazyload" src="#" data-src="videos/thumbs/alma-plus-subs-og.png" alt="Alma Plus Subs OG" />
+              <a class="play-button" data-fancybox href="videos/alma-plus-subs.mp4"></a>
             </div>
           </div>
           <div class="col-md-6">
@@ -75,74 +73,69 @@
     include_once 'layouts/LaserHairRemovalOffers.php';
     ?>
 
-    <div class="common-sec tile-bg">
+    <!-- laser-hair-removal-offers-sec -->
+    <div class="common-sec laser-hair-removal-videos-sec">
       <div class="container">
-        <h2 class="common-heading text-center mb-50px">
-          Sundes
-          <span class="site-primary-color-text">Videos</span>
-        </h2>
-        <div class="laser-hair-removal-vdo-gallery">
-          <div class="vdo-box">
-            <video width="320" height="240" controls>
-              <source src="videos/vdo-1.mp4" type="video/mp4">
-              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
-            </video>
+        <div class="laser-hair-removal-videos-sliders owl-carousel owl-theme">
+          <div class="item">
+            <div class="img-box vdo-box">
+              <img class="lazyload" src="#" data-src="videos/thumbs/head-to-toe-offer.jpg" alt="Head to Toe Offer thumbnail" />
+              <a class="play-btn" data-fancybox href="videos/head-to-toe-offer.mp4"></a>
+            </div>
           </div>
-          <div class="vdo-box">
-            <video width="320" height="240" controls>
-              <source src="videos/vdo-2.mp4" type="video/mp4">
-              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
-            </video>
+          <div class="item">
+            <div class="img-box vdo-box">
+              <img class="lazyload" src="#" data-src="videos/thumbs/video-3.jpg" alt="Video 3 thumbnail" />
+              <a class="play-btn" data-fancybox href="videos/video-3.mp4"></a>
+            </div>
           </div>
-          <div class="vdo-box">
-            <video width="320" height="240" controls>
-              <source src="videos/vdo-6.mp4" type="video/mp4">
-              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
-            </video>
+          <div class="item">
+            <div class="img-box vdo-box">
+              <img class="lazyload" src="#" data-src="videos/thumbs/bianca-armpit.jpg" alt="Bianca Armpit thumbnail" />
+              <a class="play-btn" data-fancybox href="videos/bianca-armpit.mp4"></a>
+            </div>
           </div>
-          <div class="vdo-box">
-            <video width="320" height="240" controls>
-              <source src="videos/vdo-9.mp4" type="video/mp4">
-              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
-            </video>
+          <div class="item">
+            <div class="img-box vdo-box">
+              <img class="lazyload" src="#" data-src="videos/thumbs/doncaster-white-girl-laser.jpg" alt="Doncaster White Girl Laser thumbnail" />
+              <a class="play-btn" data-fancybox href="videos/doncaster-white-girl-laser.mp4"></a>
+            </div>
           </div>
-          <div class="vdo-box">
-            <video width="320" height="240" controls>
-              <source src="videos/vdo-3.mp4" type="video/mp4">
-              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
-            </video>
+          <div class="item">
+            <div class="img-box vdo-box">
+              <img class="lazyload" src="#" data-src="videos/thumbs/farywall.jpg" alt="Farywall thumbnail" />
+              <a class="play-btn" data-fancybox href="videos/farywall.mp4"></a>
+            </div>
           </div>
-          <div class="vdo-box">
-            <video width="320" height="240" controls>
-              <source src="videos/vdo-4.mp4" type="video/mp4">
-              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
-            </video>
+          <div class="item">
+            <div class="img-box vdo-box">
+              <img class="lazyload" src="#" data-src="videos/thumbs/before-and-after-face-3-sessions.jpg" alt="Before And After Face 3 Sessions thumbnail" />
+              <a class="play-btn" data-fancybox href="videos/before-and-after-face-3-sessions.mp4"></a>
+            </div>
           </div>
-          <div class="vdo-box">
-            <video width="320" height="240" controls>
-              <source src="videos/vdo-5.mp4" type="video/mp4">
-              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
-            </video>
+          <div class="item">
+            <div class="img-box vdo-box">
+              <img class="lazyload" src="#" data-src="videos/thumbs/mixed-race-belly-shaving.jpg" alt="Mixed Race Belly Shaving thumbnail" />
+              <a class="play-btn" data-fancybox href="videos/mixed-race-belly-shaving.mp4"></a>
+            </div>
           </div>
-
-          <div class="vdo-box">
-            <video width="320" height="240" controls>
-              <source src="videos/vdo-7.mp4" type="video/mp4">
-              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
-            </video>
+          <div class="item">
+            <div class="img-box vdo-box">
+              <img class="lazyload" src="#" data-src="videos/thumbs/neck-line-up.jpg" alt="Neck Line Up thumbnail" />
+              <a class="play-btn" data-fancybox href="videos/neck-line-up.mp4"></a>
+            </div>
           </div>
-          <div class="vdo-box">
-            <video width="320" height="240" controls>
-              <source src="videos/vdo-8.mp4" type="video/mp4">
-              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
-            </video>
+          <div class="item">
+            <div class="img-box vdo-box">
+              <img class="lazyload" src="#" data-src="videos/thumbs/video-1.jpg" alt="Video 1 thumbnail" />
+              <a class="play-btn" data-fancybox href="videos/video-1.mp4"></a>
+            </div>
           </div>
-
-          <div class="vdo-box">
-            <video width="320" height="240" controls>
-              <source src="videos/vdo-10.mp4" type="video/mp4">
-              <!-- <source src="videos/alma-plus-subs-og.png" type="video/ogg"> -->
-            </video>
+          <div class="item">
+            <div class="img-box vdo-box">
+              <img class="lazyload" src="#" data-src="videos/thumbs/zora-back-shaving.jpg" alt="Zora Back Shaving thumbnail" />
+              <a class="play-btn" data-fancybox href="videos/zora-back-shaving.mp4"></a>
+            </div>
           </div>
         </div>
       </div>
@@ -157,6 +150,44 @@
   <?php include_once 'layouts/Footer.php'; ?>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $(document).ready(function() {
+      $(".laser-hair-removal-offers-sliders").owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        dots: false,
+        smartSpeed: 2500,
+        animateOut: "fadeOut",
+        responsive: {
+          0: {
+            items: 1,
+          },
+        },
+      });
+
+      $(".laser-hair-removal-videos-sliders").owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: true,
+        dots: false,
+        smartSpeed: 2500,
+        animateOut: "fadeOut",
+        responsive: {
+          0: {
+            items: 1,
+          },
+          768: {
+            items: 2,
+          },
+          992: {
+            items: 3,
+          },
+        },
+      });
+    });
+  </script>
 </body>
 
 </html>

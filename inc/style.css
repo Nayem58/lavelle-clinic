@@ -11,7 +11,8 @@ body {
   color: var(--site-black-color);
 }
 
-img, video {
+img,
+video {
   width: auto;
   height: auto;
   max-width: 100%;
@@ -1354,7 +1355,6 @@ footer {
   }
 }
 
-
 /* === laser-hair-removal-offers-sliders === */
 .laser-hair-removal-offers-sliders .owl-nav {
   position: absolute;
@@ -1401,4 +1401,13 @@ footer {
 .laser-hair-removal-videos-sliders .vdo-box {
   border: 1px solid #f3eaf1;
   padding: 10px;
+}
+
+.laser-hair-removal-videos-sliders--raw .owl-stage {
+  display: flex;
+  align-items: center;
+}
+
+.laser-hair-removal-videos-sliders--raw .vdo-box {
+  display: flex;
 }

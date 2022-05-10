@@ -29,16 +29,14 @@
     <!-- hero-banner-sec -->
     <div class="common-sec common-sec--hero-banner common-sec--laser-hair-removal-banner py-0 flex-hv-center">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 order-lg-last">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-5 col-lg-4 order-lg-last text-center">
             <div class="img-box img-box--soprano-machine">
-              <img src="images/soprano-titanium-machine.png" alt="Soprano Titanium Machine" />
+              <img src="images/hydrafacial-machine.png" alt="Hydrafacial Machine" />
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="common-heading">
-              <div class="img-box"><img src="images/soprano-titanium-logo.png" alt="Soprano Titanium Logo"></div>
-            </div>
+          <div class="col-md-5 col-lg-4 text-center">
+            <div class="img-box"><img src="images/hydrafacial-logo.png" alt="Hydrafacial Logo"></div>
           </div>
         </div>
       </div>

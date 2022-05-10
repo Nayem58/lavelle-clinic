@@ -29,16 +29,14 @@
     <!-- hero-banner-sec -->
     <div class="common-sec common-sec--hero-banner common-sec--laser-hair-removal-banner py-0 flex-hv-center">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 order-lg-last">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-5 col-lg-4 order-lg-last text-center">
             <div class="img-box img-box--soprano-machine">
               <img src="images/soprano-titanium-machine.png" alt="Soprano Titanium Machine" />
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="common-heading">
-              <div class="img-box"><img src="images/soprano-titanium-logo.png" alt="Soprano Titanium Logo"></div>
-            </div>
+          <div class="col-md-5 col-lg-4 text-center">
+            <div class="img-box"><img src="images/soprano-titanium-logo.png" alt="Soprano Titanium Logo"></div>
           </div>
         </div>
       </div>
@@ -48,11 +46,9 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 mb-3 mb-md-0 order-md-last">
-            <div class="vdo-box">
-              <video width="561" height="316" controls>
-                <source src="videos/alma-plus-subs.mp4" type="video/mp4">
-                <source src="videos/thumbs/alma-plus-subs-og.jpg" type="video/ogg">
-              </video>
+            <div class="img-box vdo-box">
+              <img class="lazyload" src="#" data-src="videos/thumbs/alma-plus-subs-og.png" alt="Alma Plus Subs OG" />
+              <a class="play-button" data-fancybox href="videos/alma-plus-subs.mp4"></a>
             </div>
           </div>
           <div class="col-md-6">
@@ -78,7 +74,7 @@
     <!-- laser-hair-removal-offers-sec -->
     <div class="common-sec laser-hair-removal-videos-sec">
       <div class="container">
-        <div class="laser-hair-removal-videos-sliders owl-carousel owl-theme">
+        <div class="laser-hair-removal-videos-sliders laser-hair-removal-videos-sliders--raw owl-carousel owl-theme">
           <div class="item">
             <div class="vdo-box">
               <video width="320" height="240" controls>
@@ -194,7 +190,6 @@
         margin: 20,
         nav: true,
         dots: false,
-        center: true,
         smartSpeed: 2500,
         animateOut: "fadeOut",
         responsive: {

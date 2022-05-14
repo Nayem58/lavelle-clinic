@@ -46,11 +46,9 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 mb-3 mb-md-0 order-md-last">
-            <div class="vdo-box">
-              <video width="320" height="240" controls>
-                <source src="videos/alma-plus-subs.mp4" type="video/mp4">
-                <source src="videos/alma-plus-subs-og.png" type="video/ogg">
-              </video>
+            <div class="img-box vdo-box">
+              <img src="videos/thumbs/hydrafacial-animation-og.png" alt="Hydrafacial OG" />
+              <a class="play-overlay" data-fancybox href="videos/hydrafacial-animation.mp4"></a>
             </div>
           </div>
           <div class="col-md-6">

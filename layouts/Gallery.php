@@ -6,8 +6,8 @@
     </h3>
     <div class="grid">
       <div class="img-box insta-block">
-        <a href="images/gallery/g-1.jpg" data-fancybox="homepage-gallery">
-          <img class="lazyload" src="#" data-src="images/gallery/g-1.jpg" alt="" />
+        <a href="images/gallery/tiger-statue-at-lavelle-clinic.jpg" data-fancybox="homepage-gallery">
+          <img class="lazyload" src="#" data-src="images/gallery/tiger-statue-at-lavelle-clinic.jpg" alt="" />
         </a>
         <a href="https://www.instagram.com/lavelleclinic/?hl=en" class="insta-follow-btn">
           <img src="images/icons/instagram-white.svg" alt="Instagram White Icon" />
@@ -15,12 +15,12 @@
         </a>
       </div>
       <div class="img-box vdo-box">
-        <img class="lazyload" src="#" data-src="images/gallery/g-thumb-1.jpg" alt="" />
-        <a class="play-btn" data-fancybox href="videos/vdo-1.mp4"></a>
+        <img class="lazyload" src="#" data-src="videos/thumbs/farywall-lg.jpg" alt="" />
+        <a class="play-btn" data-fancybox href="videos/farywall.mp4"></a>
       </div>
       <div class="img-box vdo-box">
-        <img class="lazyload" src="#" data-src="images/gallery/g-thumb-2.jpg" alt="" />
-        <a class="play-btn" data-fancybox href="videos/vdo-1.mp4"></a>
+        <img class="lazyload" src="#" data-src="videos/thumbs/maddison-lg.jpg" alt="" />
+        <a class="play-btn" data-fancybox="" href="videos/maddison.mp4"></a>
       </div>
       <div class="img-box grid">
         <div class="img-box zoom">

@@ -47,15 +47,17 @@
         <div class="row align-items-center">
           <div class="col-md-6 mb-3 mb-md-0 order-md-last">
             <div class="img-box vdo-box">
-              <img class="lazyload" src="#" data-src="videos/thumbs/alma-plus-subs-og.png" alt="Alma Plus Subs OG" />
-              <a class="play-button" data-fancybox href="videos/alma-plus-subs.mp4"></a>
+              <img src="videos/thumbs/alma-plus-subs-og.png" alt="Alma Plus Subs OG" />
+              <a class="play-overlay" data-fancybox href="videos/alma-plus-subs.mp4"></a>
             </div>
           </div>
           <div class="col-md-6">
-            <h1 class="common-heading">
-              ALMA
-              <span class="site-primary-color-text">Soprano Titanium</span>
-            </h1>
+            <div class="d-flex mb-15px">
+              <h1 class="common-heading mb-0 common-heading--line-height-0p8">
+                ALMA <span class="visibility-hidden">Soprano Titanium</span>
+              </h1>
+              <img class="ms-1" src="images/suprano-titanium-logo-horizontal.png" alt="Soprano Titanium Logo">
+            </div>
             <ul class="check-square mb-0">
               <li>4cm2 hand piece for faster treatments and better patient experience</li>
               <li>Ice Plus contact cooling and in motion technique for a pain free treatment</li>
@@ -77,44 +79,14 @@
         <div class="laser-hair-removal-videos-sliders owl-carousel owl-theme">
           <div class="item">
             <div class="img-box vdo-box">
-              <img class="lazyload" src="#" data-src="videos/thumbs/head-to-toe-offer.jpg" alt="Head to Toe Offer thumbnail" />
-              <a class="play-btn" data-fancybox href="videos/head-to-toe-offer.mp4"></a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="img-box vdo-box">
-              <img class="lazyload" src="#" data-src="videos/thumbs/video-3.jpg" alt="Video 3 thumbnail" />
-              <a class="play-btn" data-fancybox href="videos/video-3.mp4"></a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="img-box vdo-box">
-              <img class="lazyload" src="#" data-src="videos/thumbs/bianca-armpit.jpg" alt="Bianca Armpit thumbnail" />
-              <a class="play-btn" data-fancybox href="videos/bianca-armpit.mp4"></a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="img-box vdo-box">
-              <img class="lazyload" src="#" data-src="videos/thumbs/doncaster-white-girl-laser.jpg" alt="Doncaster White Girl Laser thumbnail" />
-              <a class="play-btn" data-fancybox href="videos/doncaster-white-girl-laser.mp4"></a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="img-box vdo-box">
               <img class="lazyload" src="#" data-src="videos/thumbs/farywall.jpg" alt="Farywall thumbnail" />
               <a class="play-btn" data-fancybox href="videos/farywall.mp4"></a>
             </div>
           </div>
           <div class="item">
             <div class="img-box vdo-box">
-              <img class="lazyload" src="#" data-src="videos/thumbs/before-and-after-face-3-sessions.jpg" alt="Before And After Face 3 Sessions thumbnail" />
-              <a class="play-btn" data-fancybox href="videos/before-and-after-face-3-sessions.mp4"></a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="img-box vdo-box">
-              <img class="lazyload" src="#" data-src="videos/thumbs/mixed-race-belly-shaving.jpg" alt="Mixed Race Belly Shaving thumbnail" />
-              <a class="play-btn" data-fancybox href="videos/mixed-race-belly-shaving.mp4"></a>
+              <img class="lazyload" src="#" data-src="videos/thumbs/maddison.jpg" alt="Madison thumbnail" />
+              <a class="play-btn" data-fancybox href="videos/maddison.mp4"></a>
             </div>
           </div>
           <div class="item">
@@ -125,14 +97,14 @@
           </div>
           <div class="item">
             <div class="img-box vdo-box">
-              <img class="lazyload" src="#" data-src="videos/thumbs/video-1.jpg" alt="Video 1 thumbnail" />
-              <a class="play-btn" data-fancybox href="videos/video-1.mp4"></a>
+              <img class="lazyload" src="#" data-src="videos/thumbs/before-and-after-face-3-sessions.jpg" alt="Before And After Face 3 Sessions thumbnail" />
+              <a class="play-btn" data-fancybox href="videos/before-and-after-face-3-sessions.mp4"></a>
             </div>
           </div>
           <div class="item">
             <div class="img-box vdo-box">
-              <img class="lazyload" src="#" data-src="videos/thumbs/zora-back-shaving.jpg" alt="Zora Back Shaving thumbnail" />
-              <a class="play-btn" data-fancybox href="videos/zora-back-shaving.mp4"></a>
+              <img class="lazyload" src="#" data-src="videos/thumbs/doncaster-white-girl-laser.jpg" alt="Doncaster White Girl Laser thumbnail" />
+              <a class="play-btn" data-fancybox href="videos/doncaster-white-girl-laser.mp4"></a>
             </div>
           </div>
         </div>
@@ -168,9 +140,9 @@
       $(".laser-hair-removal-videos-sliders").owlCarousel({
         loop: true,
         margin: 20,
-        nav: true,
-        dots: false,
-        smartSpeed: 2500,
+        nav: false,
+        dots: true,
+        smartSpeed: 500,
         animateOut: "fadeOut",
         responsive: {
           0: {

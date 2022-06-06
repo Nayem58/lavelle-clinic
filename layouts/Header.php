@@ -10,12 +10,14 @@
       </div>
       <div class="col-lg-7 d-none d-xl-block">
         <ul class="top-nav">
-          <li><a href="/">Home</a></li>
-          <li><a href="/hydrafacial.php">Hydrafacial</a></li>
-          <li><a href="/laser-hair-removal.php">Laser Hair</a></li>
-          <li><a href="/offers.php">Offers</a></li>
-          <li><a href="/consultation.php">Consultation</a></li>
-          <li><a href="/about-us.php">About Us</a></li>
+          <li><a class="link" href="/">Home</a></li>
+          <li><a class="link" href="/hydrafacial.php">Hydrafacial</a></li>
+          <li><a class="link" href="/laser-hair-removal.php">Laser Hair</a></li>
+          <li><a class="link" href="/offers.php">Offers</a></li>
+          <li id="toggleConsultation">
+            <span class="link">Consultation</span>
+          </li>
+          <li><a class="link" href="/about-us.php">About Us</a></li>
         </ul>
       </div>
       <div class="col-6 col-sm-6 col-md-3 col-lg-2 d-flex justify-content-end">

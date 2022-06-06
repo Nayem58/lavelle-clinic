@@ -32,6 +32,7 @@
     include_once 'layouts/WhyChoose.php';
     include_once 'layouts/ReviewSec.php';
     include_once 'layouts/Gallery.php';
+    include_once 'layouts/Form.php';
     ?>
   </main>
 

@@ -24,3 +24,11 @@ const sidebarToggle = (element) => {
 sidebarToggle(hamburger);
 sidebarToggle(asideMask);
 sidebarToggle(closeIcon);
+
+// pull contact form
+const toggleConsultation = document.querySelector("#toggleConsultation");
+const consultation = document.querySelector(".consultation");
+
+toggleConsultation.addEventListener("click", () => {
+  consultation.classList.toggle("pulled");
+});

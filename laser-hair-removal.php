@@ -11,15 +11,12 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha512-DUC8yqWf7ez3JD1jszxCWSVB0DMP78eOyBpMa5aJki1bIRARykviOuImIczkxlj1KhVSyS16w2FSQetkD4UU2w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
   <!-- preloader -->
-  <div class="preLoader">
-    Loading<span>...</span>
-  </div>
+  <div class="preLoader">Loading<span>...</span></div>
 
   <!-- header -->
   <?php include_once 'layouts/Header.php'; ?>
@@ -36,7 +33,9 @@
             </div>
           </div>
           <div class="col-md-5 col-lg-4 text-center">
-            <div class="img-box"><img src="images/soprano-titanium-logo.png" alt="Soprano Titanium Logo"></div>
+            <div class="img-box">
+              <img src="images/soprano-titanium-logo.png" alt="Soprano Titanium Logo" />
+            </div>
           </div>
         </div>
       </div>
@@ -53,16 +52,24 @@
           </div>
           <div class="col-md-6">
             <div class="d-flex mb-15px">
-              <h1 class="common-heading mb-0 common-heading--line-height-0p8">
+              <!-- <h1 class="common-heading mb-0 common-heading--line-height-0p8">
                 ALMA <span class="visibility-hidden">Soprano Titanium</span>
-              </h1>
-              <img class="ms-1" src="images/suprano-titanium-logo-horizontal.png" alt="Soprano Titanium Logo">
+              </h1> -->
+              <img class="ms-1" src="images/soprano-titanium-black.png" alt="Soprano Titanium Logo" />
             </div>
             <ul class="check-square mb-0">
-              <li>4cm2 hand piece for faster treatments and better patient experience</li>
-              <li>Ice Plus contact cooling and in motion technique for a pain free treatment</li>
+              <li>
+                4cm2 hand piece for faster treatments and better patient
+                experience
+              </li>
+              <li>
+                Ice Plus contact cooling and in motion technique for a pain
+                free treatment
+              </li>
               <li>3 simultaneous wavelengths in 1 applicator</li>
-              <li>Suitable for all skin types including dark and tanned skin</li>
+              <li>
+                Suitable for all skin types including dark and tanned skin
+              </li>
             </ul>
           </div>
         </div>
@@ -74,9 +81,9 @@
     ?>
 
     <!-- laser-hair-removal-offers-sec -->
-    <div class="common-sec laser-hair-removal-videos-sec">
+    <div class="common-sec videos-sliders-sec tile-bg">
       <div class="container">
-        <div class="laser-hair-removal-videos-sliders owl-carousel owl-theme">
+        <div class="videos-sliders-carousel owl-carousel owl-theme">
           <div class="item">
             <div class="img-box vdo-box">
               <img class="lazyload" src="#" data-src="videos/thumbs/farywall.jpg" alt="Farywall thumbnail" />
@@ -137,7 +144,7 @@
         },
       });
 
-      $(".laser-hair-removal-videos-sliders").owlCarousel({
+      $(".videos-sliders-carousel").owlCarousel({
         loop: true,
         margin: 20,
         nav: false,

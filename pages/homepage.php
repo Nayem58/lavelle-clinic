@@ -17,9 +17,7 @@
           <span class="site-primary-color-text">Best Skin Treatment</span>
         </h1>
         <p class="mb-0">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
-          doloribus quod culpa repudiandae maxime accusamus aperiam explicabo
-          quia doloremque laudantium.
+          Only the best skin treatments for our clients - we use the best, world leading and latest technology on the market for our skin treatments. the Soprano Titanium laser hair removal along with the Hydrafacial treatment is the best duo you will find in the skin industry
         </p>
       </div>
       <div class="common-card" data-aos="fade-up" data-aos-duration="500">
@@ -65,14 +63,11 @@
           <img class="lazyload" src="#" data-src="images/blogs/laser-hair-removal.jpg" alt="Laser Hair Removal" />
         </div>
         <div class="blog-card" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-sine">
-          <h3 class="common-heading">Laser Hair Removal</h3>
+          <h3 class="common-heading">Soprano Titanium - Laser Hair Removal</h3>
           <p>
-            Your skin deserves a routine as unique as you are. That’s why we’re
-            always chatting with skin care experts and looking into the latest
-            products, treatments and tips to help you create your perfect skin
-            care routine.
+            After trials and tests with various laser technologies we have chosen the best and only FDA approved machine on the market. the soprano titanium is the latest in the alma hair removal family of the ice laser. The technology is stronger, faster and smarter. Providing a comfortable pain free treatment using the ice plus technology and in motion technique along with 3 wavelengths working simultaneously. The laser also safely treats all skin types safely including dark and tanned skin
           </p>
-          <a href="/laser-hair.html" class="common-btn">Learn More</a>
+          <a href="/laser-hair-removal.php" class="common-btn">Learn More</a>
         </div>
       </div>
       <div class="blog-block">
@@ -82,12 +77,9 @@
         <div class="blog-card" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" data-aos-easing="ease-in-sine">
           <h3 class="common-heading">Hydrafacial</h3>
           <p>
-            Your skin deserves a routine as unique as you are. That’s why we’re
-            always chatting with skin care experts and looking into the latest
-            products, treatments and tips to help you create your perfect skin
-            care routine.
+            Your skin deserves the best and that is what you will get at Lavelle clinic. We offer the platinum 6 stage hydrafacial which consists of a deep cleanse and exfoliation, extraction, hydration and protection. The facial is also completed off with the award winning Dermalux Flex LED treatment.
           </p>
-          <a href="/hydrafacial.html" class="common-btn">Learn More</a>
+          <a href="/hydrafacial.php" class="common-btn">Learn More</a>
         </div>
       </div>
     </div>

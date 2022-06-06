@@ -11,13 +11,14 @@
       <div class="row justify-content-lg-center">
         <div class="col-md-5 col-lg-8">
           <ul class="check-square mb-0" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-            <li>Laser Hair Removal</li>
-            <li>Deep Cleaning Facial</li>
-            <li>Microdermabrasion</li>
-            <li>Hydrafacial</li>
-            <li>Hyperpigmentation</li>
-            <li>Mild Spots</li>
-            <li>Dry Skin</li>
+            <li>Private clinic</li>
+            <li>Ladies only</li>
+            <li>Soprano laser hair removal</li>
+            <li>Official hydrafacial</li>
+            <li>Oily skin</li>
+            <li>Dry skin</li>
+            <li>Minor spots</li>
+            <li>Wedding</li>
           </ul>
         </div>
       </div>

@@ -4,6 +4,10 @@
   --site-gold-color: #9d844b;
 }
 
+*:focus {
+  outline: none !important;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
@@ -51,6 +55,11 @@ ul.check-square li:before {
 
 .mb-15px {
   margin-bottom: 15px;
+}
+
+.font-18px {
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .site-primary-color-text {
@@ -142,6 +151,10 @@ h6.common-heading {
   border-radius: 5px;
 }
 
+.common-card .img-box + .content {
+  margin-top: 15px;
+}
+
 .common-btn {
   display: inline-block;
   padding: 10px 40px;
@@ -164,6 +177,10 @@ h6.common-heading {
   color: var(--site-primary-color);
 }
 
+.count-2 {
+  column-count: 2;
+}
+
 @media (min-width: 576px) {
   .count-sm-2 {
     column-count: 2;
@@ -171,6 +188,9 @@ h6.common-heading {
 }
 
 @media (min-width: 768px) {
+  .count-md-2 {
+    column-count: 2;
+  }
   .count-md-3 {
     column-count: 3;
   }
@@ -1388,18 +1408,18 @@ footer {
   color: var(--site-primary-color);
 }
 
-/* === laser-hair-removal-videos-sliders === */
-.laser-hair-removal-videos-sliders .owl-dots {
+/* === videos-sliders-carousel === */
+.videos-sliders-carousel .owl-dots {
   margin-top: 10px;
   text-align: center;
 }
 
-.laser-hair-removal-videos-sliders .owl-dots .owl-dot {
+.videos-sliders-carousel .owl-dots .owl-dot {
   display: inline-block;
   zoom: 1;
 }
 
-.laser-hair-removal-videos-sliders .owl-dots .owl-dot span {
+.videos-sliders-carousel .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
   margin: 5px 7px;
@@ -1410,8 +1430,8 @@ footer {
   border-radius: 30px;
 }
 
-.laser-hair-removal-videos-sliders .owl-dots .owl-dot.active span,
-.laser-hair-removal-videos-sliders .owl-dots .owl-dot:hover span {
+.videos-sliders-carousel .owl-dots .owl-dot.active span,
+.videos-sliders-carousel .owl-dots .owl-dot:hover span {
   background: var(--site-primary-color);
 }
 
@@ -1424,17 +1444,48 @@ footer {
   }
 }
 
-.laser-hair-removal-videos-sliders .vdo-box {
+.videos-sliders-carousel .vdo-box {
   border: 1px solid #f4ebf1;
   padding: 5px;
   border-radius: 15px;
 }
 
-.laser-hair-removal-videos-sliders .vdo-box img {
+.videos-sliders-carousel .vdo-box img {
   border-radius: 10px;
 }
 
-.laser-hair-removal-videos-sliders--raw .owl-stage {
+.videos-sliders-carousel--raw .owl-stage {
   display: flex;
   align-items: center;
+}
+
+/* === six-stages === */
+.accordion-item {
+  background-color: transparent;
+}
+
+.accordion-button {
+  background-color: transparent;
+}
+
+.accordion-button:focus {
+  border: 0;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+
+/* === hydrafacial-skin-types-row === */
+.hydrafacial-skin-types-row .common-card {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: url(../images/backgrounds/review-card-1-bg.jpg);
+}
+
+.hydrafacial-skin-types-row .common-card .img-box img {
+  max-width: 100px;
 }

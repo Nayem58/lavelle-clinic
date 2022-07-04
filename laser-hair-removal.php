@@ -120,6 +120,7 @@
 
     <?php
     include_once 'layouts/ReviewSec.php';
+    include_once 'layouts/Form.php';
     ?>
   </main>
 

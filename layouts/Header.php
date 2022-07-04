@@ -14,7 +14,7 @@
           <li><a class="link" href="/hydrafacial.php">Hydrafacial</a></li>
           <li><a class="link" href="/laser-hair-removal.php">Laser Hair</a></li>
           <li><a class="link" href="/offers.php">Offers</a></li>
-          <li id="toggleConsultation">
+          <li id="topBarToggleConsultation">
             <span class="link">Consultation</span>
           </li>
           <li><a class="link" href="/about-us.php">About Us</a></li>
@@ -36,7 +36,7 @@
     </div>
   </div>
 </header>
-<aside class="sidebar">
+<aside class="sidebar tile-bg">
   <span class="closeIcon">
     <img src="../images/icons/close-icon.svg" alt="Close Icon" />
   </span>
@@ -48,7 +48,9 @@
     <li><a href="/hydrafacial.php">Hydrafacial</a></li>
     <li><a href="/laser-hair-removal.php">Laser Hair</a></li>
     <li><a href="/offers.php">Offers</a></li>
-    <li><a href="/consultation.php">Consultation</a></li>
+    <li id="sideBarToggleConsultation">
+      <span>Consultation</span>
+    </li>
     <li><a href="/about-us.php">About Us</a></li>
   </ul>
 </aside>

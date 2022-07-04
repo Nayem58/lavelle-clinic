@@ -20,3 +20,6 @@
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href="inc/style.css" />
+
+<!-- Google re-Captcha -->
+<script src="https://www.google.com/recaptcha/api.js?render=6Lfr1IAgAAAAAHUVL_6PUm4minu5v8SHMCpUhWXS"></script>
